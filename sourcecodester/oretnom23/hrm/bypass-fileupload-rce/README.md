@@ -1,6 +1,6 @@
 # Human Resource Management System 1.0 Remote Code Execution (Unauthenticated)
 
-Description: Vulnerability was found in SourceCodester Book Store Management System 1.0. This vulnerability allows an unauthenticated attacker bypass restricted execute arbitrary code via a crafted PHP file.
+Description: Vulnerability was found in SourceCodester Book Store Management System 1.0. This vulnerability allows an unauthenticated attacker bypass the upload file restriction and execute arbitrary code via a crafted PHP file.
 
 The product(s): https://www.sourcecodester.com/php/15740/human-resource-management-system-project-php-and-mysql-free-source-code.html
 
