@@ -8,7 +8,9 @@ Affected product(s)/code base: https://www.sourcecodester.com/sites/default/file
 
 Affected component(s): /hrm/employeeadd.php
 
-Analysis source code: `empid` Handler has been not validation from user.
+Source code analysis:
+
+The `empid` handler don't have input validation from user.
 
 ![](images/empid.png)
 

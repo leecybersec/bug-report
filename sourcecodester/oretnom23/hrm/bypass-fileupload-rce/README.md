@@ -8,7 +8,7 @@ Affected product(s)/code base: https://www.sourcecodester.com/sites/default/file
 
 Affected component(s): /hrm/controller/employee.php
 
-Analysis source code:
+Source code analysis:
 
 File image must be 1 of 4 stypes was definded
 
