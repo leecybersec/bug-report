@@ -29,7 +29,7 @@ Bypass check type using `Content-Type: image/jpg` in the upload form.
 
 After analysis the source code, we know that `/hrm/controller/employee.php` allow an unauthorized user access and upload image file.
 
-Let's upload file webshell `leecybersec.php` with `Content-Type: image/jpg` without any authentication.
+Let's upload file webshell `leecybersec.php` with `Content-Type: image/jpg` without authentication.
 
 ``` txt
 POST /hrm/controller/employee.php?empedit= HTTP/1.1
