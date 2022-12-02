@@ -82,3 +82,5 @@ curl localhost/hrm/image/247245leecybersec.php?cmd=id
 ```
 
 ![](images/find-webshell-rce.png)
+
+#### Discoverer(s)/Credits: NGO VAN TU (@leecybersec)
