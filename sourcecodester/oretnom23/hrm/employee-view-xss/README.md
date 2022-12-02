@@ -1,4 +1,4 @@
-# Human Resource Management System 1.0 Remote Code Execution (Unauthenticated)
+# Human Resource Management System 1.0 Reflected XSS
 
 Description: Vulnerability was found in SourceCodester Book Store Management System 1.0. A Reflected cross-site scripting (XSS) vulnerability in /hrm/employeeview.php with search handler.
 
