@@ -13,3 +13,5 @@ Proof of Concept:
 http://localhost/hrm/employeeview.php?searchview=Submit+Query&search=sss%22%3E%3Cscript%3Ealert(document.domain)%3C/script%3E%3Cinput
 
 ![](images/xss-confirm.png)
+
+#### Discoverer(s)/Credits: NGO VAN TU (@leecybersec)

