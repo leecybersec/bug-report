@@ -65,7 +65,7 @@ Content-Disposition: form-data; name="imagefilename"
 
 ### 3. Find the uploaded webshell file and get RCE
 
-The webshell name will be added with random number and stored at `image` folder.
+The webshell will be added with some random number in the name.
 
 ![](images/file-path-webshell.png)
 
