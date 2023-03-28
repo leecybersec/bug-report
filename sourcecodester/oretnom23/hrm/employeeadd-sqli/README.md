@@ -1,4 +1,4 @@
-# [CVE-2022-4278](https://vuldb.com/?id.214775)
+# [CVE-2022-4278](https://www.cve.org/CVERecord?id=CVE-2022-4278)
 
 SourceCodester Human Resource Management System 1.0 /hrm/employeeadd.php empid sql injection
 

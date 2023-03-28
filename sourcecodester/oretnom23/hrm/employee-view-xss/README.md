@@ -1,4 +1,4 @@
-# [CVE-2022-4279](https://vuldb.com/?id.214776)
+# [CVE-2022-4279](https://www.cve.org/CVERecord?id=CVE-2022-4279)
 
 SourceCodester Human Resource Management System 1.0 /hrm/employeeview.php Cross Site Scripting
 

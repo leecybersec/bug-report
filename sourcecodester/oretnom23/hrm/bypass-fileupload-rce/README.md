@@ -1,4 +1,4 @@
-# [CVE-2022-4273](https://vuldb.com/?id.214769)
+# [CVE-2022-4273](https://www.cve.org/CVERecord?id=CVE-2022-4273)
 
 SourceCodester Human Resource Management System 1.0 Content-Type employee.php pfimg unrestricted upload
 
