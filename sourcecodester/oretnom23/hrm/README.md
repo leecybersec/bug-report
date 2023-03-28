@@ -4,6 +4,8 @@ Vendor: https://www.sourcecodester.com/php/15740/human-resource-management-syste
 
 Source code: https://www.sourcecodester.com/sites/default/files/download/oretnom23/hrm.zip
 
+Researcher: NGO VAN TU (@leecybersec)
+
 # Setup Environment
 
 1. Install apache2 and mysql-server
@@ -21,7 +23,3 @@ Source code: https://www.sourcecodester.com/sites/default/files/download/oretnom
 [CVE-2022-4278](employeeadd-sqli) - (7.2 HIGH): SQL Injection
 
 [CVE-2022-4279](employee-view-xss) - (6.1 MEDIUM): Reflected XSS
-
-# Researcher
-
-NGO VAN TU (@leecybersec)
