@@ -1,8 +1,8 @@
 # CVE Report
 
-SourceCodester Human Resource Management System 1.0 /controller/login.php sql injection
+SourceCodester Human Resource Management System 1.0 Authentication Bypass using SQL Injection on Login Page
 
-Description: Vulnerability was found in SourceCodester Book Store Management System 1.0. Authentication Bypass using SQL Injection on Login Page
+Description: A SQL Injection vulnerable was found at /controller/login.php in SourceCodester Book Store Management System 1.0.
 
 The product(s): https://www.sourcecodester.com/php/15740/human-resource-management-system-project-php-and-mysql-free-source-code.html
 
