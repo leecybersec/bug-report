@@ -12,13 +12,7 @@ Source code: https://www.sourcecodester.com/sites/default/files/download/oretnom
 
 3. Import hrm_db.sql located inside the db folder to mysql database
 
-4. Browse the Human Resource Management System in a browser
-
-# Credentials
-
-Email: admin@gmail.com
-
-Password: admin#123
+4. Browse the Human Resource Management System in a browser with admin@gmail.com / admin#123
 
 # Discovered Vulnerability
 
@@ -27,3 +21,5 @@ Password: admin#123
 [CVE-2022-4278](employeeadd-sqli) - (7.2 HIGH): SQL Injection
 
 [CVE-2022-4279](employee-view-xss) - (6.1 MEDIUM): Reflected XSS
+
+# Researcher: Ngo Van Tu (@leecybersec)
