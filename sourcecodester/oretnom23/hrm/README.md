@@ -22,4 +22,6 @@ Source code: https://www.sourcecodester.com/sites/default/files/download/oretnom
 
 [CVE-2022-4279](employee-view-xss) - (6.1 MEDIUM): Reflected XSS
 
-# Researcher: Ngo Van Tu (@leecybersec)
+# Researcher
+
+Ngo Van Tu (@leecybersec)
