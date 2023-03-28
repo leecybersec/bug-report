@@ -20,7 +20,7 @@ Email: admin@gmail.com
 
 Password: admin#123
 
-# Vulnerability
+# Discovered Vulnerability
 
 [CVE-2022-4273](bypass-fileupload-rce) - (9.8 CRITICAL)
 
