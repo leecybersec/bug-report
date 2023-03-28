@@ -1,4 +1,6 @@
-# SourceCodester Human Resource Management System 1.0 SQL Injection
+# [CVE-2022-4278](https://vuldb.com/?id.214775)
+
+SourceCodester Human Resource Management System 1.0 /hrm/employeeadd.php empid sql injection
 
 Description: Vulnerability was found in SourceCodester Book Store Management System 1.0. A SQL Injection vulnerability in /hrm/employeeadd.php with `empid` handler.
 
@@ -8,13 +10,13 @@ Affected product(s)/code base: https://www.sourcecodester.com/sites/default/file
 
 Affected component(s): /hrm/employeeadd.php
 
-Source code analysis:
+# Source code analysis
 
 The `empid` handler don't have input validation from user.
 
 ![](images/empid.png)
 
-Proof of Concept:
+# Proof of Concept
 
 Login as admin and go to `http://localhost/hrm/employeeadd.php`
 
@@ -29,5 +31,3 @@ Payload SQLi with sleep(10): /hrm/employeeadd.php?empid=1%27%20or%20sleep(10)%20
 Check payload at MySQL log:
 
 ![](images/mysql-log.png)
-
-#### Discoverer(s)/Credits: NGO VAN TU (@leecybersec)

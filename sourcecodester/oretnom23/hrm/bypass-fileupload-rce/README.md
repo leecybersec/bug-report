@@ -1,6 +1,8 @@
-# Human Resource Management System 1.0 Remote Code Execution (Unauthenticated)
+# [CVE-2022-4273](https://vuldb.com/?id.214769)
 
-Description: Vulnerability was found in SourceCodester Book Store Management System 1.0. This vulnerability allows an unauthenticated attacker bypass the upload file restriction and execute arbitrary code via a crafted PHP file.
+SourceCodester Human Resource Management System 1.0 Content-Type employee.php pfimg unrestricted upload
+
+Description: Vulnerability was found in SourceCodester Book Store Management System 1.0. A SQL Injection vulnerability in /hrm/employeeadd.php with `empid` handler.
 
 The product(s): https://www.sourcecodester.com/php/15740/human-resource-management-system-project-php-and-mysql-free-source-code.html
 
@@ -8,7 +10,7 @@ Affected product(s)/code base: https://www.sourcecodester.com/sites/default/file
 
 Affected component(s): /hrm/controller/employee.php
 
-Source code analysis:
+# Source code analysis
 
 File image must be 1 of 4 stypes was definded
 
@@ -18,14 +20,13 @@ After uploading, the webshell file will be added with some random number in the 
 
 ![](images/file-path-webshell.png)
 
+# Proof of Concept
 
-Proof of Concept:
-
-### 1. Bypass File upload restriction
+1. Bypass File upload restriction
 
 Bypass check type using `Content-Type: image/jpg` in the upload form.
 
-### 2. Upload web shell without authentication
+2. Upload web shell without authentication
 
 After analysis the source code, we know that `/hrm/controller/employee.php` allow an unauthorized user access and upload image file.
 
@@ -68,7 +69,7 @@ Content-Disposition: form-data; name="imagefilename"
 
 ![](images/sent-payload.png)
 
-### 3. Find the uploaded webshell file and get RCE
+3. Find the uploaded webshell file and get RCE
 
 Go to /hrm/image/ and get webshell name
 
@@ -83,5 +84,3 @@ curl localhost/hrm/image/247245leecybersec.php?cmd=id
 ```
 
 ![](images/find-webshell-rce.png)
-
-#### Discoverer(s)/Credits: NGO VAN TU (@leecybersec)
