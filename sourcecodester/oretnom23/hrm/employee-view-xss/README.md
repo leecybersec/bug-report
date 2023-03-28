@@ -1,4 +1,6 @@
-# SourceCodester Human Resource Management System 1.0 /hrm/employeeview.php Cross Site Scripting
+# [CVE-2022-4279](https://vuldb.com/?id.214776)
+
+SourceCodester Human Resource Management System 1.0 /hrm/employeeview.php Cross Site Scripting
 
 Description: Vulnerability was found in SourceCodester Book Store Management System 1.0. A Reflected cross-site scripting (XSS) vulnerability in /hrm/employeeview.php with search handler.
 
@@ -6,7 +8,7 @@ The product(s): https://www.sourcecodester.com/php/15740/human-resource-manageme
 
 Affected product(s)/code base: https://www.sourcecodester.com/sites/default/files/download/oretnom23/hrm.zip
 
-Affected component(s): /hrm/employeeview.php 
+Affected component(s): /hrm/employeeview.php
 
 # Proof of Concept:
 
