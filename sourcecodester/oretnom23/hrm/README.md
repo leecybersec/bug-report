@@ -24,4 +24,4 @@ Source code: https://www.sourcecodester.com/sites/default/files/download/oretnom
 
 # Researcher
 
-Ngo Van Tu (@leecybersec)
+NGO VAN TU (@leecybersec)
