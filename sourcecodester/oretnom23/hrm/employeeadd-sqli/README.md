@@ -1,4 +1,4 @@
-# Human Resource Management System 1.0 SQL Injection
+# SourceCodester Human Resource Management System 1.0 SQL Injection
 
 Description: Vulnerability was found in SourceCodester Book Store Management System 1.0. A SQL Injection vulnerability in /hrm/employeeadd.php with `empid` handler.
 
