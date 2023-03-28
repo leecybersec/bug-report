@@ -23,5 +23,7 @@ Password: admin#123
 # Vulnerability
 
 [CVE-2022-4273](bypass-fileupload-rce)(9.8 CRITICAL)
+
 [CVE-2022-4278](employeeadd-sqli)(7.2 HIGH)
+
 [CVE-2022-4279](employee-view-xss)(6.1 MEDIUM)
