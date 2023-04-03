@@ -1,4 +1,4 @@
-Tribal Systems Zenario CMS 9.3.57754 Exposure of Sensitive File via Private Folder
+# Tribal Systems Zenario CMS 9.3.57754 Exposure of Sensitive File via Private Folder
 
 Description: In Zenario CMS user session identifier (authentication token) is issued to the browser prior to authentication but is not changed after user logout and login again into the application when "Remember me" option active. Failing to issue a new session ID following a successful login introduces the possibility for an attacker to set up a trap session on the device the victim is likely to login with.
 
