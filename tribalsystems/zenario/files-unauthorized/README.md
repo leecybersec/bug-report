@@ -12,7 +12,7 @@ Tested version: Zenario-9.3.57754
 
 # Proof of Concept
 
-## Images and Documents are stored in server with Private and Offline mode.
+## Images and Documents are stored in server with Private and Offline mode. It mean unauthenticated user cannot access to it.
 
 ![](images/images.png)
 Images are in Private mode
@@ -23,10 +23,10 @@ Documents are in Offline mode
 ## But the a folder named "private" contains that Images and Documents. This folder can be access by unauthorized actors.
 
 ![](images/listing.png)
-List of private directory
+List of private directory in private folder
 
 ![](images/svg-image.png)
-Private image is public
+Private image is publicing to unauthenticated user
 
 ![](images/pdf.png)
-Offline document is public
+Offline document is publicing to unauthenticated user
