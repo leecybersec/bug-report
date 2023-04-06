@@ -1,1 +1,1 @@
-# CVE Report by @leecybersec
+Researcher: NGO VAN TU
